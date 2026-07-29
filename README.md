@@ -1,6 +1,7 @@
+<img width="1408" height="768" alt="mne-python" src="https://github.com/user-attachments/assets/193f7be0-15d9-44e7-85eb-6aa6d0a85886" />
+
+
 # MNE-Python-Crash-Course [2026]
-
-
 Welcome to this end-to-end tutorial designed to take you from setting up your local Python environment to analyzing real-world clinical EEG data from the **CHB-MIT Scalp EEG Database**. 
 
 This repository acts as a teaching resource and a practical implementation of workflows inspired by the Pybrain Workshop.
