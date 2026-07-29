@@ -52,25 +52,16 @@ jupyter lab
 
 ---
 
-## 📊 Part 2: Step-by-Step EEG Pipeline
+## Part 2: Step-by-Step EEG Pipeline
 
-Our notebooks are built to guide you through processing continuous data using real clinical `.edf` files.
-
-### 1. Data Ingestion & Metadata Exploration
-* Loading raw European Data Format (`.edf`) files using `mne.io.read_raw_edf()`.
-* Inspecting sampling rates (256 Hz for CHB-MIT), channel names, and hardware limits.
-
-### 2. Signal Artifact Mitigation (Filtering)
-* Applying high-pass filters (e.g., 0.5 Hz) to eliminate baseline drift caused by patient movement.
-* Applying low-pass filters (e.g., 40 Hz) to eliminate high-frequency muscle noise.
-* Implementing Notch Filtering (60 Hz) to clear ambient electrical interference.
-
-### 3. Epoching & Feature Extraction
-* Slicing long continuous clinical recordings into fixed-duration intervals (e.g., 4-second blocks).
-* Computing Welch's Power Spectral Density (PSD) to quantify shifts in Alpha, Beta, Theta, and Delta band power during seizure windows.
+If you want to know how MNE works, check out following 5 steps. I’ll quickly go over everything on notebook `01-Overview.ipynb` to give you a general roadmap, and in the other notebooks, I’ll have a detailed, specialized, and practical article for each of these 5 parts.
+### 1. Loading Data & Raw Object
+### 2. Filtering and Plotting
+### 3. Extracting Events and Segmenting Data (Events & Epochs Object)
+### 4. Averaging and Extracting Event-Related Potentials (Evoked Object)
+### 5. Source Localization & SourceEstimate
 
 ---
 
 ## 🛠️ Credits & Disclaimers
-* **Clinical Dataset:** Data retrieved from the open-source PhysioNet [CHB-MIT Scalp EEG Database](https://physionet.org).
-* **Educational Workflow:** Methodological structures adapted and modernized from the foundational materials of the [Pybrain Workshop](https://github.io).
+* **Educational Workflow:** Methodological structures adapted from the foundational materials of the [MNE](https://mne.tools/stable/index.html).
