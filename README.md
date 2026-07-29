@@ -22,8 +22,8 @@ Never install packages into your base environment. Open your Anaconda Prompt and
 
 ```bash
 # Clone this repository to your machine
-git clone https://github.com/arasparsa/EEG-Analysis-MNE-Python
-cd EEG-Analysis-MNE-Python
+git clone https://github.com/arasparsa/MNE-Python-Crash-Course
+cd MNE-Python-Crash-Course
 
 # Create the environment from the provided configuration file
 conda env create -f environment.yml
@@ -42,7 +42,7 @@ Every time you want to work on this project, activate the environment:
 conda activate mne_env
 ```
 ```bash
-cd project-path
+cd MNE-Python-Crash-Course
 ```
 
 Launch JupyterLab to start coding:
