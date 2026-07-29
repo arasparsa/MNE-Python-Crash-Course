@@ -2,9 +2,9 @@
 
 
 # MNE-Python-Crash-Course [2026]
-Welcome to this end-to-end tutorial designed to take you from setting up your local Python environment to analyzing real-world clinical EEG data from the **CHB-MIT Scalp EEG Database**. 
+This repository is a quick, step-by-step tutorial of a complete brain signal processing pipeline, from reading raw data to visualizing cortical activity. It introduces the four main MNE data structures: SourceEstimate, Evoked, Epochs, and Raw, with a practical example (recorded data from a visual-auditory experiment).
 
-This repository acts as a teaching resource and a practical implementation of workflows inspired by the Pybrain Workshop.
+This repository acts as a teaching resource and a practical implementation of workflows inspired by [MNE](https://mne.tools/stable/auto_tutorials/index.html) website.
 
 ---
 
