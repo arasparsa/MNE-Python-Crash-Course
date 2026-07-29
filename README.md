@@ -1,6 +1,5 @@
-# MNE-Python-Crash-Course
+# MNE-Python-Crash-Course [2026]
 
-# Comprehensive Guide to EEG Analysis with MNE-Python [2026]
 
 Welcome to this end-to-end tutorial designed to take you from setting up your local Python environment to analyzing real-world clinical EEG data from the **CHB-MIT Scalp EEG Database**. 
 
